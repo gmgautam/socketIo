@@ -24,6 +24,7 @@ function App() {
       socket.disconnect();   // disconnect cleanly
     };
   }, []);
+  
   console.log(socket, "socket socket");
   return <>hello ggfdsgsfdg</>;
 }
