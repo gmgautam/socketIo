@@ -32,7 +32,7 @@ io.on("connection", (socket) => {
 
   // You can add events here
   // socket.on("some-event", (data) => { ... });
-socket.emit("gautam","Welcome to Your kindom ")
+socket.emit("gautam","Welcome to Your kindom  ")
   socket.on("disconnect", () => {
     console.log("🔴 User disconnected");
   });
